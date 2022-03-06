@@ -1,0 +1,88 @@
+
+.hola{
+    background-color: #FAF0E6;
+ }
+
+.t2{
+    margin-top: -20px;
+    font-size: 30px;
+    color: #800000;
+}
+.body {
+    text-align: center;
+    background-color: #FAF0E6;
+}
+.text-center
+{
+    padding-top: 50px;
+    margin-bottom: 25px;
+    font-family: 'Roboto Serif', sans-serif;
+    color:#800000;
+}
+
+.confirm{
+    margin-bottom: 37px;
+}
+
+input {
+    width: 50%;
+    padding: 15px 20px;
+    border: 5px solid #800000 ;
+    margin-bottom: 16px;
+    outline: none;
+    font-size: 17px;
+    text-align: left;
+
+}
+.passwordConfirm{
+    margin-top: 10px;
+}
+
+.tips{
+    margin-top: -25px;
+    margin-left: 25px;
+    padding-top: 45px;
+    font-family: 'Roboto Serif', sans-serif;
+    color: #800000;
+}
+.show1{
+    position: absolute;
+    margin-top: 16px;
+    margin-left: 8px;
+    width: 15px;
+    height: 15px;
+}
+.show2{
+    position: absolute;
+    margin-top: 16px;
+    margin-left: 8px;
+    width: 15px;
+    height: 15px;
+}
+.hah{
+    margin-top: 21px;
+}
+.button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 3rem;
+    height: 60px;
+    font-family: 'Roboto Serif', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    color: #800000;
+    backface-visibility: hidden;
+    border: 7px solid transparent;
+    border-radius: 14px;
+}
+
+.butt {
+    border-color: #800000;
+    transition: transform 0.5s cubic-bezier(0.348, 0, 0.07, 0.70);
+}
+
+.butt:hover {
+    transform: perspective(1px) scale3d(1.044, 1.044, 1) translateZ(0) !important;
+}
